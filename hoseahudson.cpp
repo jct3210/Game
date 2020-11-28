@@ -24,9 +24,15 @@ int main()
 	Sleep(6000);
 	cout << "You take a train this takes $3 of your money away" << endl;
 	money = money - 3;
+
 	Sleep(4000);
 	cout << "a detective apporaches you on the train" << endl;
 	Sleep(5000);
+
+	Sleep(3000);
+	cout << "a detective apporaches you on the train" << endl;
+	Sleep(4000);
+
 	cout << "Detective: Halt, this train is not a colored train!" << endl;
 	int encounter1;
 	cout << "You have been spotted!" << endl;
@@ -34,7 +40,11 @@ int main()
 	// enter some code for mini game here.
 
 	Sleep(3000);
+
 	cout << "That conductor looks to be mighty mean. We can not miss this train or we will be later for the National Training School in New York! Do we try to sneak aboard the train" << endl;
+
+	cout << "That conductor looks to be mighty mean. We can not miss this train or we will be later for the National Training School in New York! Do we confront the conductor or do we try to sneak aboard the train" << endl;
+
 	string word;
 
 	if (word == "yes")
@@ -45,9 +55,25 @@ int main()
 	{
 		cout << "The conductor forces you to get off the train, and watches to make sure you do not get back on. You do not arrive in time for the National Training School" << endl;
 
+
 	}
 	return 0;
 }
+
+
+
+	}
+	return 0;
+}
+
+	void endgame(int jail)
+	{
+		if (jail == 1)
+		{
+			cout << "Game Over" << endl;
+		}
+	}
+
 
 	void endgame(int jail)
 	{
