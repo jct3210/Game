@@ -65,47 +65,47 @@ int main()
 	Sleep(20000);
 	cout << "New York, NY" << endl;
 	cout << "Alright there is the bus stop. We need to catch a bus tothe ferry in order to get across the river to the training camp. The buses in Birmingham are segregated but I'm not seeing any signs about any segreation on the buses her. Do we risk it and sit in the front with the heat?" << endl;
-	string word3;
-	cin >> word3;
-	if (word3 == "yes")
+	string word4;
+	cin >> word4;
+	if (word4 == "yes")
 	{
 		cout << "nothing happens" << endl;
 	}
-	if (word3 == "no")
+	if (word4 == "no")
 	{
 		cout << "nothing happens your in the north" << endl;
 	}
 	cout << "Here is the training camp just up ahead! We made it! Halkf way home!" << endl;
 	Sleep(30000);
 	cout << "Camp Director: Do you guys want some pamphlets to spread the cause of communism across America?" << endl;
-	string word4;
-	cin >> word4;
+	string word5;
+	cin >> word5;
 	int pamphlets = 0;
-	if (word4 == "Yes")
+	if (word5 == "Yes")
 	{
 		cout << "you gain pamphlets" << endl;
 		pamphlets = 1;
 	}
-	else if (word4 == "No")
+	else if (word5 == "No")
 	{
 		//something no no happens
 	}
 	cout << "Camp Director: You guys can use my car to get home. Just watch out for the police - they are not to found of African-Americans driving or having pamphlets" << endl;
 	cout << "There are cops! We can't be seen by them! We need to run!" << endl;
 	cout << "The pamphlets! We need to get rid of them!" << endl;
-	string word5;
-	cin >> word5;
 	string word6;
+	cin >> word6;
+	string word7;
 	if (pamphlets == 1)
 	{
 		cout << "Do you want to get rid of the pamphlets" << endl;
-		cin >> word6;
-		if (word6 == "yes")
+		cin >> word7;
+		if (word7 == "yes")
 		{
 			cout << "you try to dump the letter before the police showup" << endl;
 			//implement some sort of change system
 		}
-		if (word6 == "no")
+		if (word7 == "no")
 		{
 			cout << "African-Americans arrested trying to incite rot in the South and spread anarchy" << endl;
 			//implement some sort of jail time system
@@ -113,10 +113,6 @@ int main()
 	}
 	return 0;
 }
-
-
-
-
 
 
 
